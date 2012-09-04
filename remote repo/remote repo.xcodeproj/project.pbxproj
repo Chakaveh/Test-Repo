@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4F7D2CD15F5A2E300014E8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F7D2CC15F5A2E300014E8F /* UIKit.framework */; };
+		F4F7D2CF15F5A2E300014E8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F7D2CE15F5A2E300014E8F /* Foundation.framework */; };
+		F4F7D2D115F5A2E300014E8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F7D2D015F5A2E300014E8F /* CoreGraphics.framework */; };
+		F4F7D2D715F5A2E300014E8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4F7D2D515F5A2E300014E8F /* InfoPlist.strings */; };
+		F4F7D2D915F5A2E300014E8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F7D2D815F5A2E300014E8F /* main.m */; };
+		F4F7D2DD15F5A2E300014E8F /* CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F7D2DC15F5A2E300014E8F /* CalculatorAppDelegate.m */; };
+		F4F7D2E015F5A2E300014E8F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F7D2DE15F5A2E300014E8F /* MainStoryboard.storyboard */; };
+		F4F7D2E315F5A2E300014E8F /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F7D2E215F5A2E300014E8F /* CalculatorViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4F7D2C815F5A2E300014E8F /* remote repo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "remote repo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F7D2CC15F5A2E300014E8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4F7D2CE15F5A2E300014E8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4F7D2D015F5A2E300014E8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4F7D2D415F5A2E300014E8F /* remote repo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "remote repo-Info.plist"; sourceTree = "<group>"; };
+		F4F7D2D615F5A2E300014E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4F7D2D815F5A2E300014E8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4F7D2DA15F5A2E300014E8F /* remote repo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "remote repo-Prefix.pch"; sourceTree = "<group>"; };
+		F4F7D2DB15F5A2E300014E8F /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		F4F7D2DC15F5A2E300014E8F /* CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppDelegate.m; sourceTree = "<group>"; };
+		F4F7D2DF15F5A2E300014E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F4F7D2E115F5A2E300014E8F /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		F4F7D2E215F5A2E300014E8F /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4F7D2C515F5A2E300014E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F7D2CD15F5A2E300014E8F /* UIKit.framework in Frameworks */,
+				F4F7D2CF15F5A2E300014E8F /* Foundation.framework in Frameworks */,
+				F4F7D2D115F5A2E300014E8F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4F7D2BD15F5A2E300014E8F = {
+			isa = PBXGroup;
+			children = (
+				F4F7D2D215F5A2E300014E8F /* remote repo */,
+				F4F7D2CB15F5A2E300014E8F /* Frameworks */,
+				F4F7D2C915F5A2E300014E8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4F7D2C915F5A2E300014E8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4F7D2C815F5A2E300014E8F /* remote repo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4F7D2CB15F5A2E300014E8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4F7D2CC15F5A2E300014E8F /* UIKit.framework */,
+				F4F7D2CE15F5A2E300014E8F /* Foundation.framework */,
+				F4F7D2D015F5A2E300014E8F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4F7D2D215F5A2E300014E8F /* remote repo */ = {
+			isa = PBXGroup;
+			children = (
+				F4F7D2DB15F5A2E300014E8F /* CalculatorAppDelegate.h */,
+				F4F7D2DC15F5A2E300014E8F /* CalculatorAppDelegate.m */,
+				F4F7D2DE15F5A2E300014E8F /* MainStoryboard.storyboard */,
+				F4F7D2E115F5A2E300014E8F /* CalculatorViewController.h */,
+				F4F7D2E215F5A2E300014E8F /* CalculatorViewController.m */,
+				F4F7D2D315F5A2E300014E8F /* Supporting Files */,
+			);
+			path = "remote repo";
+			sourceTree = "<group>";
+		};
+		F4F7D2D315F5A2E300014E8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4F7D2D415F5A2E300014E8F /* remote repo-Info.plist */,
+				F4F7D2D515F5A2E300014E8F /* InfoPlist.strings */,
+				F4F7D2D815F5A2E300014E8F /* main.m */,
+				F4F7D2DA15F5A2E300014E8F /* remote repo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4F7D2C715F5A2E300014E8F /* remote repo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F7D2E615F5A2E300014E8F /* Build configuration list for PBXNativeTarget "remote repo" */;
+			buildPhases = (
+				F4F7D2C415F5A2E300014E8F /* Sources */,
+				F4F7D2C515F5A2E300014E8F /* Frameworks */,
+				F4F7D2C615F5A2E300014E8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "remote repo";
+			productName = "remote repo";
+			productReference = F4F7D2C815F5A2E300014E8F /* remote repo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4F7D2BF15F5A2E300014E8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Calculator;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Chakaveh;
+			};
+			buildConfigurationList = F4F7D2C215F5A2E300014E8F /* Build configuration list for PBXProject "remote repo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4F7D2BD15F5A2E300014E8F;
+			productRefGroup = F4F7D2C915F5A2E300014E8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4F7D2C715F5A2E300014E8F /* remote repo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4F7D2C615F5A2E300014E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F7D2D715F5A2E300014E8F /* InfoPlist.strings in Resources */,
+				F4F7D2E015F5A2E300014E8F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4F7D2C415F5A2E300014E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F7D2D915F5A2E300014E8F /* main.m in Sources */,
+				F4F7D2DD15F5A2E300014E8F /* CalculatorAppDelegate.m in Sources */,
+				F4F7D2E315F5A2E300014E8F /* CalculatorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4F7D2D515F5A2E300014E8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F7D2D615F5A2E300014E8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4F7D2DE15F5A2E300014E8F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F7D2DF15F5A2E300014E8F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4F7D2E415F5A2E300014E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4F7D2E515F5A2E300014E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4F7D2E715F5A2E300014E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "remote repo/remote repo-Prefix.pch";
+				INFOPLIST_FILE = "remote repo/remote repo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4F7D2E815F5A2E300014E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "remote repo/remote repo-Prefix.pch";
+				INFOPLIST_FILE = "remote repo/remote repo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4F7D2C215F5A2E300014E8F /* Build configuration list for PBXProject "remote repo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F7D2E415F5A2E300014E8F /* Debug */,
+				F4F7D2E515F5A2E300014E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F7D2E615F5A2E300014E8F /* Build configuration list for PBXNativeTarget "remote repo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F7D2E715F5A2E300014E8F /* Debug */,
+				F4F7D2E815F5A2E300014E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4F7D2BF15F5A2E300014E8F /* Project object */;
+}
